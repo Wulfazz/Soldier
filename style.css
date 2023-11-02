@@ -80,15 +80,6 @@
     position: fixed;
   }
   
-  .fnaf2{
-    background-image: url("images/fnaf2.jpg");
-    background-size: cover;
-    background-position: top center;
-    width: 100%;
-    position: fixed;
-  }
-  
-  
   /* display page */
   .home{
     display: flex;
@@ -211,23 +202,22 @@
   /* Skills */
   .barrecompetence {
     height: 1%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2%;
   }
   
   .skill {
     width: 60%;
-    background-color: #b7b7a4;
+    background-color: #727272;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
   
   }
   .skill2 {
     width: 60%;
-    background-color: #6b705c;
+    border: 5px solid #727272;
+    background-color: #770000;
     border-radius: 50px;
   }
   
