@@ -237,14 +237,19 @@
     display: flex;
     margin-left: -10%;
   }
-  
-  .social {
+
+  .L2{
+    height: 30px;
+    width: 30px;
     display: flex;
-    justify-content: left;
-    z-index: 1;
-}
-.form{
-    z-index: 2;
+    margin-left: -10%;
+  }
+  
+  .social{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 .social a {
@@ -311,6 +316,8 @@
 
   }
 
+-
+  /* faut trouver comment faire des cartes */
 .me ul{
     list-style: none;
 }
@@ -329,10 +336,15 @@
     align-items: center;
   }
 
+.me li{
+  display: flex;
+  flex-direction: row;
+}
+
 .carte{
-    width: 350px;
+    width: 130%;
     height: 610px;
-    background-image: url("img/Léon.jpg")0 610px;
+    background-image: url("img/Léon.jpg");
     border-radius: 10px;
     box-shadow: 2px 10px 12px black;
     display: flex;
@@ -343,15 +355,20 @@
     margin: 20px 10px;
 }
 
-.modele{
-    height: 250px;
-    width: 100%;
-    max-width: 100%;
-}
-
 .detail{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
 }
+
+.detail p{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.detail .favs{
+  color: white;
+}
+
