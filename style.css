@@ -97,8 +97,12 @@ background: #333;
 
 /* Myskills */
 
+h1{
+  color:#cf0000;
+}
+
 h3{
-  margin: 10px;
+  margin: 10px; 
 }
 
 .skillu{
@@ -146,119 +150,119 @@ h3{
   0%{
     width: 0%;
   }
-  100%{
+  90%{
     width: 90%;
   }
 }
 
 .css{
   width: 70%;
-  animation: html 3s;
+  animation: css 3s;
 }
 
 @keyframes css{
   0%{
     width: 0%;
   }
-  100%{
+  70%{
     width: 70%;
   }
 }
 
 .php{
   width: 45%;
-  animation: html 3s;
+  animation: php 3s;
 }
 
 @keyframes php{
   0%{
     width: 0%;
   }
-  100%{
+  45%{
     width: 45%;
   }
 }
 
 .javascript{
   width: 60%;
-  animation: html 3s;
+  animation: javascript 3s;
 }
 
 @keyframes javascript{
   0%{
     width: 0%;
   }
-  100%{
+  60%{
     width: 60%;
   }
 }
 
 .git{
   width: 30%;
-  animation: html 3s;
+  animation: git 3s;
 }
 
 @keyframes git{
   0%{
     width: 0%;
   }
-  100%{
+  30%{
     width: 30%;
   }
 }
 
 .figma{
   width: 65%;
-  animation: html 3s;
+  animation: figma 3s;
 }
 
 @keyframes figma{
   0%{
     width: 0%;
   }
-  100%{
+  65%{
     width: 65%;
   }
 }
 
 .docker{
   width: 30%;
-  animation: html 3s;
+  animation: docker 3s;
 }
 
 @keyframes docker{
   0%{
     width: 0%;
   }
-  100%{
+  30%{
     width: 30%;
   }
 }
 
 .angular{
   width: 30%;
-  animation: html 3s;
+  animation: angular 3s;
 }
 
 @keyframes angular{
   0%{
     width: 0%;
   }
-  100%{
+  30%{
     width: 30%;
   }
 }
 
 .sql{
   width: 30%;
-  animation: html 3s;
+  animation: sql 3s;
 }
 
 @keyframes sql{
   0%{
     width: 0%;
   }
-  100%{
+  30%{
     width: 30%;
   }
 }
@@ -298,9 +302,9 @@ h3{
   background-color: rgba(255, 255, 255, 0.286);
   border-radius: 15px;
   width: 55%;
-  height: 55%;
+  height: 50%;
   font-family: "Pixelify Sans", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   z-index: 1;
   justify-content: flex-end;
