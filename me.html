@@ -3,95 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
-    <!-- Icone -->
+    <title>It's Me</title>
     <link
       rel="icon"
       type="image/x-icon"
-      href="https://w7.pngwing.com/pngs/109/39/png-transparent-five-nights-at-freddy-s-sister-location-five-nights-at-freddy-s-2-five-nights-at-freddy-s-4-five-nights-at-freddy-s-3-stuffed-animals-cuddly-toys-fnaf.png"
+      href="img/3133552.png"
     />
-
-    <!--Police pixels-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Lien CSS -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
-        <!-- Image de fond pour home -->
-        <div class="briques">
-          <!-- Barre de nav -->
+
+    <!-- Image de fond pour home -->
+    <div class="briques">
+        <!-- Barre de nav -->
     <nav class="nav">
-        <ul>
-            <li id="logo">
-                <img id="logo1" src="img/radioactive-icon-free-png.png"
-                    alt="Logo pizza"
-                    title="pizza"
-                />
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="me.html">Me</a>
-            </li>
-            <li>
-                <a href="skills.html">Skills</a>
-            </li>
-            <li>
-                <a href="projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav> 
-
-    <div class="menu-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  <ul class="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="me.html">Me</a></li>
-    <li><a href="skills.html">skills</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
-  <div class="me">
-    <ul>
-        <li class="item-a">
-            <div class="carte">
-                <p class="favs">Favorites Game</p>
-                <div class="detail">
-                    <p>Resident Evil 2 : Remake</p>
-                </div>
-            </div>
+        <div class="menu-toggle">
+        <span></span>   
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu">
+        <li id="logo">
+            <img id="logo1" src="img/radioactive-icon-free-png.png"
+            alt="Logo pizza"
+            title="pizza"
+                    />
         </li>
-        <li class="item-b">
-            <div class="carte">
-                <p class="favs">Favorites Book</p>
-                <div class="detail">
-                    <p>IT : Stephen King</p>
-                </div>
-            </div>
-        </li>
-        <li class="item-c">
-            <div class="carte">
-                <p class="favs">Favorites Movie</p>
-                <div class="detail">
-                    <p>Five nights at freddy's</p>
-                </div>
-            </div>
-        </li>
-    </ul>
-  </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="me.html">Me</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
+        <!-- contenu -->
+        <div class="me">
+            <div class="l-container">  
+                <!-- carte 1 -->
+                
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/Léon.jpg);">
+                        <a href="https://www.amazon.fr/Capcom-Resident-Evil-2/dp/B07DPBWJB6/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1Z19CVR38ASR2&keywords=resident%2Bevil%2B2&qid=1699117654&sprefix=resident%2Bevil%2B2%2Caps%2C79&sr=8-3&th=1">
+                            <div class="texteM">Favorite Game</div>
+                        </a>
+                    </div>
+                </div>  
+                <!-- carte 2 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/it-9781501175466_hr.jpg);">
+                        <a href="https://www.amazon.fr/%C3%87a-Coffret-tomes-Stephen-King/dp/2253083364/ref=sr_1_2?crid=12GNF5CH8BEK3&keywords=it+stephen+king&qid=1699117957&sprefix=it+step%2Caps%2C88&sr=8-2">
+                            <div class="texteM">Favorite Book</div>
+                        </a>
+                    </div>  
+                </div>  
+                <!-- carte 3 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/fnaf-movies-red-eyes-are-far-from-silver-eyes-book-v0-rdpmba33db0b1.JPG);">
+                        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=236844.html">
+                            <div class="texteM">Favorite Movie</div>
+                        </a>
+                    </div>  
+                </div>  
+            </div> 
+        </div>   
+    </div>
 </body>
 </html>
