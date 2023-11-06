@@ -3,10 +3,13 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+  list-style: none;
 }
 
 body{
 height: 100vh;
+background: #333;
 }
 
 /* Navbar */
@@ -82,6 +85,184 @@ height: 100vh;
   position: fixed;
 }
 
+.mySkills{
+  background-image: url("img/briques.JPG");
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+}
+
+/* Myskills */
+
+h3{
+  margin: 10px;
+}
+
+.skillu{
+  width: 80%;
+  margin: 6% auto;
+  color: white;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0,25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  align-items: center;
+}
+
+.skillu li{
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.bar{
+  background: #555;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+}
+
+.bar:hover{
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0,25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(109, 0, 0, 1)0%, rgb(173, 0, 0, 1)100%)
+}
+
+/* animations des barres de compétences */
+
+.html{
+  width: 90%;
+  animation: html 3s;
+}
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+.css{
+  width: 70%;
+  animation: html 3s;
+}
+
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+.php{
+  width: 45%;
+  animation: html 3s;
+}
+
+@keyframes php{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 45%;
+  }
+}
+
+.javascript{
+  width: 60%;
+  animation: html 3s;
+}
+
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+.git{
+  width: 30%;
+  animation: html 3s;
+}
+
+@keyframes git{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+
+.figma{
+  width: 65%;
+  animation: html 3s;
+}
+
+@keyframes figma{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+.docker{
+  width: 30%;
+  animation: html 3s;
+}
+
+@keyframes docker{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+
+.angular{
+  width: 30%;
+  animation: html 3s;
+}
+
+@keyframes angular{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+
+.sql{
+  width: 30%;
+  animation: html 3s;
+}
+
+@keyframes sql{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+
 /* Home */
 
 .home{
@@ -119,7 +300,7 @@ height: 100vh;
   width: 55%;
   height: 55%;
   font-family: "Pixelify Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   z-index: 1;
   justify-content: flex-end;
@@ -131,8 +312,8 @@ height: 100vh;
 
 #nom{
   color: red;
-  font-size: 180%;
-  margin: 6%;
+  font-size: 4rem;
+  margin: 3%;
 }
 
 #welcome{
@@ -247,7 +428,6 @@ height: 100vh;
   transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;  
 }  
 
-
 /* Page contact */
 
 input[type=text], textarea, input[type=email] {
@@ -323,40 +503,6 @@ margin-bottom: 1%;
 
 .social a {
   margin-left: 10px;
-}
-
-/* Skills */
-.barrecompetence {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 2%;
-}
-
-.skill {
-  width: 60%;
-  height: 5%;
-  background-color: #b8b8b8;
-  border-radius: 50px;
-  margin-top: 2%;
-}
-
-.skill2 {
-  width: 70%;
-  height: 100%;
-  background-color: #870000;
-  border-radius: 50px;
-  border: 3px solid #b8b8b8;
-}
-
-.L{
-  height: 40px;
-  width: 40px;
-  display: flex;
-  margin-left: -20%;
 }
 
 /* disparu */
@@ -435,3 +581,4 @@ margin-bottom: 1%;
     margin-top: 10%;
 }
 }
+
