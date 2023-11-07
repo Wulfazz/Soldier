@@ -507,8 +507,9 @@ margin-bottom: 1%;
   /* navbar */
   .navbar .logo{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    width: 10%;
+    top: 25px;
+    left: 25px;
   }
 
   .nav-links{
