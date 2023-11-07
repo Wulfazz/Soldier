@@ -40,10 +40,10 @@ background: #333;
 }
 
 .menuburger{
-  width: 35px;
+  width: 30px;
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 40px;
+  right: 40px;
   display: none;
 }
 
