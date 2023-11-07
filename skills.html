@@ -22,31 +22,23 @@
 <body>
 
     <!-- Image de fond pour compétences -->
-    <div class="mySkills">
+    <div class="briques">
     <!-- Barre de nav -->
-    <nav class="nav">
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul class="menu">
-            <li id="logo">
-                <img id="logo1" src="img/radioactive-icon-free-png.png"
-                alt="Logo pizza"
-                title="pizza"
-                        />
-            </li>
+    <nav class="navbar">
+        <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+        <div class="nav-links">
+          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="me.html">Me</a></li>
             <li><a href="skills.html">skills</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
+        </div>
+        <img src="img/burger.png" alt="menuburger" class="menuburger" >
     </nav> 
 
         <div class="skillu">
-            <h1>My skills</h1>
 
             <li><h3>html</h3>
                 <span class="bar"><span class="html"></span></span>
@@ -78,4 +70,12 @@
         </div>
     </div>
 </body>
+<script>
+        const menuHamburger = document.querySelector(".menuburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
 </html>
