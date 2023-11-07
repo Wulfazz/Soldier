@@ -291,7 +291,6 @@ h3{
   background-color: rgba(255, 255, 255, 0.286);
   border-radius: 15px;
   width: 55%;
-  height: 50%;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -505,6 +504,7 @@ margin-bottom: 1%;
     display: none;
   }
 
+  /* navbar */
   .navbar .logo{
     position: absolute;
     top: 20px;
@@ -542,19 +542,16 @@ margin-bottom: 1%;
     margin: 25px 0;
     font-size: 2em;
   }
-}
 
-
-/* apparu */
-@media screen and (max-width: 1160px) {
-
+  /* home */
   .texteH {
     background-color: rgba(255, 255, 255, 0.286);
     border-radius: 15px;
-    width: 80%;
-    margin: 10%;
+    width: 70%;
+    height: 70%;
+    margin: 5%;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     z-index: 1;
     justify-content: flex-end;
