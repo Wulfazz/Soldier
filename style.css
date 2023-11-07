@@ -14,7 +14,6 @@ background: #333;
 }
 
 /* Navbar */
-
 .navbar{
   position: absolute;
   padding: 50px;
@@ -48,7 +47,6 @@ background: #333;
 }
 
 /* Placement logo et taille */
-
 .navbar .logo{
   width: 64px;
 }
@@ -92,7 +90,6 @@ background: #333;
 }
 
 /* Myskills */
-
 h1{
   color:#cf0000;
 }
@@ -136,7 +133,6 @@ h3{
 }
 
 /* animations des barres de compétences */
-
 .html{
   width: 90%;
   animation: html 3s;
@@ -264,7 +260,6 @@ h3{
 }
 
 /* Home */
-
 .home{
   display: flex;
   color: rgb(255, 255, 255);
@@ -319,7 +314,6 @@ h3{
 }
 
 /* me */
-
 .l-container {  
   display: grid;  
   grid-template-columns: repeat(3, 1fr);  
@@ -334,8 +328,13 @@ h3{
 
 @media screen and (max-width: 760px) {  
   .l-container {  
-       grid-template-columns: repeat(2, 1fr);  
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 15px;
+       margin: 5%;
  }  
+
+
+
 }  
 
 .b-game-card {  
@@ -376,7 +375,6 @@ h3{
 }
 
 /* effet de cartes quand on passe dessus */
-
 .b-game-card__cover::after {  
   display: block;  
   position: absolute;  
@@ -420,7 +418,6 @@ h3{
 }  
 
 /* Page contact */
-
 input[type=text], textarea, input[type=email] {
   width: 100%;
   padding: 28px;
@@ -497,7 +494,6 @@ margin-bottom: 1%;
 }
 
 /* disparu */
-
 @media screen and (min-width: 1161px){
   .texteH {
     background-color: rgba(255, 255, 255, 0.286);
@@ -573,6 +569,15 @@ margin-bottom: 1%;
     align-items: center;
     position: fixed;
     transform: translate(0, -50%);
+  }
+
+  .texteM{
+    padding: 2%;
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 1.7rem;
   }
 
   .L{
