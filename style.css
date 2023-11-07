@@ -596,5 +596,14 @@ margin-bottom: 1%;
   .menuburger{
   display: block;
   }
+
+  .skillu{
+    margin: 20% auto;
+  }
+
+  .skillu li{
+    padding: 1%;
+  }
+
 }
 
