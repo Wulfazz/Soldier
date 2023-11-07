@@ -39,10 +39,10 @@ background: #333;
 }
 
 .menuburger{
-  width: 30px;
+  width: 40px;
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 25px;
+  right: 25px;
   display: none;
 }
 
@@ -520,7 +520,7 @@ margin-bottom: 1%;
   /* navbar */
   .navbar .logo{
     position: absolute;
-    width: 10%;
+    width: 40px;
     top: 25px;
     left: 25px;
   }
@@ -588,7 +588,9 @@ margin-bottom: 1%;
   }
 
   .container{
-    margin-top: 10%;
+    margin-top: 20%;
+    width: 80%;
+    height: 70%;
 }
 
   .menuburger{
